@@ -25,6 +25,10 @@
 
 
  <?php
+ /**
+  * The given function checks whether the $_GET['code'] value is set.
+  * It displays result according to the value in $code variable regarding the payments
+  */
 function getResult()
 {
     if(isset($_GET['code']))
